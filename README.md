@@ -1,9 +1,10 @@
 # Minecraft-Server-Docker-Compose
 
-This project provides a complete setup for running a Minecraft server using Docker Compose. The server is configured with FABRIC, a lightweight and flexible modding platform that allows easy integration of custom mods. The server also supports local mods, enabling you to add, modify, and test mods without the need for manual file management on the server.
+This project provides a complete setup for running a Minecraft server using Docker Compose. The server is configured with FABRIC. The server also supports local mods, enabling you to add, modify, and test mods without the need for manual file management on the server.
 
 With this setup, you can create a Minecraft server environment that runs mods and plugins in an isolated and easily manageable way, without modifying system files or server settings.
-What is this project?
+
+# What is this project?
 
 This project allows you to run a customized Minecraft server within a Docker container, using Docker Compose to manage the necessary services. The server is configured with FABRIC, which is a fast and modular modding platform for Minecraft, and mods are managed locally, giving you full control over the installed mods.
 
