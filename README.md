@@ -1,18 +1,14 @@
 # Minecraft-Server-Docker-Compose
 
+# What is this project?
+
 This project provides a complete setup for running a Minecraft server using Docker Compose. The server is configured with FABRIC. The server also supports local mods, enabling you to add, modify, and test mods without the need for manual file management on the server.
 
 With this setup, you can create a Minecraft server environment that runs mods and plugins in an isolated and easily manageable way, without modifying system files or server settings.
 
-# What is this project?
-
-This project allows you to run a customized Minecraft server within a Docker container, using Docker Compose to manage the necessary services. The server is configured with FABRIC, which is a fast and modular modding platform for Minecraft, and mods are managed locally, giving you full control over the installed mods.
-
-By using this approach, you can easily create and manage your own custom Minecraft server with a set of mods tailored to your preferences.
-
 # Features
 
-   Docker Compose Setup: This project uses Docker Compose to automatically configure and launch the Minecraft server. All you need to do is modify the docker-compose.yml file to suit your needs.
+   Docker Compose Setup: This project uses Docker Compose to automatically configure and launch the Minecraft server. All you need to do is modify the ```docker-compose.yml``` file to suit your needs.
 
    FABRIC Modding Platform: FABRIC is used to add additional mods to the server.
    
@@ -41,7 +37,7 @@ The main configuration file is docker-compose.yml. Open this file and modify it 
 
    Minecraft Version: Modify the line for the desired Minecraft version. Ensure it is compatible with FABRIC.
 
-   Local Mods: Place your custom mods into the mods folder in the main project directory. Make sure the mods are compatible with the chosen version of Minecraft.
+   Local Mods: Place your custom mods into the ```mods``` folder in the main project directory. Make sure the mods are compatible with the chosen version of Minecraft.
 
    Server Settings: Edit the server.properties file in the data folder to customize server settings, such as the port, difficulty level, and other game configurations.
 
