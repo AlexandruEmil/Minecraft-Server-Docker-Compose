@@ -37,7 +37,7 @@ The main configuration file is docker-compose.yml. Open this file and modify it 
 
    Minecraft Version: Modify the line for the desired Minecraft version. Ensure it is compatible with FABRIC.
 
-   Local Mods: Place your custom mods into the ```mods``` folder in the main project directory. Make sure the mods are compatible with the chosen version of Minecraft.
+   Local Mods: Place your custom mods into the ```/mods``` folder in the main project directory. Make sure the mods are compatible with the chosen version of Minecraft.
 
    Server Settings: Edit the server.properties file in the data folder to customize server settings, such as the port, difficulty level, and other game configurations.
 
